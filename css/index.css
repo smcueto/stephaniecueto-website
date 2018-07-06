@@ -103,7 +103,7 @@ html {
 }
 
 #about {
-    background-image: url('./img/stephaniecuetowebsite.png');
+    background-image: url('/img/stephaniecuetowebsite.png');
     background-color: #ffffff;
     background-size: auto 100%;
     background-repeat: no-repeat;

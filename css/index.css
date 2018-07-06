@@ -103,9 +103,9 @@ html {
 }
 
 #about {
-    background-image: url('stephaniecueto-website/img/stephaniecuetowebsite.png');
+    background-image: url('/Users/stephaniecueto/Documents/github-projects/stephaniecueto-website/img/stephaniecuetowebsite.png');
     background-color: #ffffff;
-    background-size: auto 100%;
+    background-size: auto 80%;
     background-repeat: no-repeat;
     background-position: 10% 3em;
     height: 100vh;
@@ -115,12 +115,12 @@ html {
 #bio h1,
 h2,
 p {
-    margin-left: 40%;
+    margin-left: 50%;
     margin-right: 15%;
 }
 
 #social {
-    margin-left: 40%;
+    margin-left: 50%;
     margin-right: 15%;
 }
 
@@ -144,11 +144,11 @@ p {
     #bio h1,
     h2,
     p {
-        margin-left: 40%;
+        margin-left: 50%;
         margin-right: 5%;
     }
     #social {
-        margin-left: 40%;
+        margin-left: 50%;
         margin-right: 5%;
     }
 }

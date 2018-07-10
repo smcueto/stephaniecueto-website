@@ -102,7 +102,7 @@ html {
     font-family: sans-serif;
 }
 #pic{
-    background-image: url(/img/stephaniecuetowebsite.png);
+    background-image: url('/img/stephaniecuetowebsite.png');
 }
 #about {
     /* background-image: url('/img/stephaniecuetowebsite.png'); */

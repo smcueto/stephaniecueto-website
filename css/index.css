@@ -108,8 +108,7 @@ html {
 }
 
 #pic {
-    background-image: url('/img/stephaniecuetowebsite.png');
-    background-image: url('/Users/stephaniecueto/Documents/github-projects/stephaniecueto-website/img/stephaniecuetowebsite.png');
+    background-image: url('../img/stephaniecuetowebsite.png');
     background-color: #ffffff;
     background-size: auto 95%;
     background-repeat: no-repeat;

@@ -108,17 +108,13 @@ html {
 }
 
 #pic {
-    background-image: url('/img/stephaniecuetowebsite.png');
+    /* background-image: url('/img/stephaniecuetowebsite.png'); */
+    background-image: url('/Users/stephaniecueto/Documents/github-projects/stephaniecueto-website/img/stephaniecuetowebsite.png');
     background-color: #ffffff;
-    background-size: auto 75%;
+    background-size: auto 95%;
     background-repeat: no-repeat;
     background-position: 10% 3em;
-    /* height: 100vh; */
-    padding: 10%;
-    width: 40%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    width: 50%;
 }
 
 #about {
@@ -130,7 +126,7 @@ html {
 }
 
 #bio-container {
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center;
 }
@@ -139,21 +135,19 @@ html {
     width: 80%;
 }
 
+h1 {
+    font-size: 3vw;
+}
+
+p, a {
+    font-size: 1.3vw;
+}
+
 #social {
     width: 80%;
 }
 
-/* #bio h1,
-h2,
-p {
-    margin-left: 50%;
-    margin-right: 15%;
-}
 
-#social {
-    margin-left: 50%;
-    margin-right: 15%;
-} */
 
 #social a:not(:first-child) {
     margin-left: 1em;
@@ -167,75 +161,6 @@ p {
     color: black;
 }
 
-/* @media screen and (min-width: 1100px) and (max-width: 1550px) {
-    #about {
-        background-position: 0 2em;
-        padding: 6em 2em;
-    }
-    #bio h1,
-    h2,
-    p {
-        margin-left: 50%;
-        margin-right: 5%;
-    }
-    #social {
-        margin-left: 50%;
-        margin-right: 5%;
-    }
-} */
-
-@media screen and (min-width: 800px) and (max-width: 1100px) {
-    #about {
-        background-position: -3em 2em;
-        padding: 3em 0;
-    }
-    #bio h1,
-    h2,
-    p {
-        margin-left: 45%;
-        margin-right: 5%;
-    }
-    #social {
-        margin-left: 45%;
-        margin-right: 5%;
-    }
-}
-
-@media screen and (min-width: 680px) and (max-width: 800px) {
-    #about {
-        background-position: -8em 1em;
-        padding: 3em 0;
-    }
-    #bio h1,
-    h2,
-    p {
-        margin-left: 45%;
-        margin-right: 1em;
-    }
-    #social {
-        margin-left: 45%;
-        margin-right: 1em;
-    }
-}
-
-@media screen and (max-width: 680px) {
-    #about {
-        background-image: none;
-        padding: 1em;
-    }
-    #bio h1,
-    h2,
-    p {
-        margin: 1em auto;
-    }
-    #social {
-        margin: 2em auto;
-        text-align: center;
-    }
-    #social i {
-        font-size: 1em;
-    }
-}
 
 
 /* ==========================================================================

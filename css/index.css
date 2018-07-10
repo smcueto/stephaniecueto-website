@@ -101,20 +101,50 @@ textarea {
 html {
     font-family: sans-serif;
 }
-#pic{
-    background-image: url('/img/stephaniecuetowebsite.png');
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
 }
+
+#pic {
+    background-image: url('/img/stephaniecuetowebsite.png');
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 #about {
-    /* background-image: url('/img/stephaniecuetowebsite.png'); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    /* background-image: url('/img/stephaniecuetowebsite.png');
     background-color: #ffffff;
     background-size: auto 75%;
     background-repeat: no-repeat;
     background-position: 10% 3em;
     height: 100vh;
-    padding: 10%;
+    padding: 10%; */
 }
 
-#bio h1,
+#bio-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#bio {
+    width: 80%;
+}
+
+#social {
+    width: 80%;
+}
+
+/* #bio h1,
 h2,
 p {
     margin-left: 50%;
@@ -124,7 +154,7 @@ p {
 #social {
     margin-left: 50%;
     margin-right: 15%;
-}
+} */
 
 #social a:not(:first-child) {
     margin-left: 1em;
@@ -138,7 +168,7 @@ p {
     color: black;
 }
 
-@media screen and (min-width: 1100px) and (max-width: 1550px) {
+/* @media screen and (min-width: 1100px) and (max-width: 1550px) {
     #about {
         background-position: 0 2em;
         padding: 6em 2em;
@@ -153,7 +183,7 @@ p {
         margin-left: 50%;
         margin-right: 5%;
     }
-}
+} */
 
 @media screen and (min-width: 800px) and (max-width: 1100px) {
     #about {

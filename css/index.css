@@ -109,6 +109,12 @@ html {
 
 #pic {
     background-image: url('/img/stephaniecuetowebsite.png');
+    background-color: #ffffff;
+    background-size: auto 75%;
+    background-repeat: no-repeat;
+    background-position: 10% 3em;
+    height: 100vh;
+    padding: 10%;
     width: 40%;
     display: flex;
     justify-content: flex-end;
@@ -121,13 +127,6 @@ html {
     justify-content: center;
     align-items: center;
     width: 60%;
-    /* background-image: url('/img/stephaniecuetowebsite.png');
-    background-color: #ffffff;
-    background-size: auto 75%;
-    background-repeat: no-repeat;
-    background-position: 10% 3em;
-    height: 100vh;
-    padding: 10%; */
 }
 
 #bio-container {

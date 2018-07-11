@@ -108,14 +108,17 @@ html {
 }
 
 #pic {
-    background-image: url('../img/stephaniecuetowebsite.png');
-    background-color: #ffffff;
-    background-size: auto 95%;
-    background-repeat: no-repeat;
-    background-position: 10% 3em;
     width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+  
 #about {
     display: flex;
     flex-direction: column;
@@ -146,8 +149,6 @@ p, a {
     width: 80%;
 }
 
-
-
 #social a:not(:first-child) {
     margin-left: 1em;
 }
@@ -171,9 +172,9 @@ p, a {
  * Hide visually and from screen readers
  */
 
-.hidden {
+/* .hidden {
     display: none !important;
-}
+} */
 
 
 /*

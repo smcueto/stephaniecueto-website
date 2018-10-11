@@ -13,10 +13,9 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-
     <!-- start Mixpanel -->
-    <script type="text/javascript" src="mixpanelHeader.js"></script>
-    <script type="text/javascript" src="mixpanelTracking.js"></script>
+    <script src="keys.js" type="text/javascript"></script>
+    <script src="mixpanelLibrary.js" type="text/javascript"></script>
     <!-- end Mixpanel -->
 </head>
 
@@ -66,11 +65,10 @@
                 <!-- Static Resume Website -->
                 <a id="onlineResumeLink" href="https://smcueto.github.io/stephaniecueto/" target="_blank">
                     <i class="far fa-file" aria-hidden="true"></i>Online CV</a>
-
             </div>
         </div>
-    </div>
-
+    </div> 
+    <script> mixpanel.track("Viewed Personal Website");</script>   
 </body>
 
 </html>
